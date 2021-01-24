@@ -1,2 +1,2 @@
 # c-programming
-#### for university projects on data structures and algorithm
+kilobyte files on data structures and algorithm with c
