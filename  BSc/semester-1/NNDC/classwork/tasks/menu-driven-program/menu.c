@@ -3,8 +3,6 @@
  *  author: dipak giri, 17.1.2021
  **/
 
-// todo: odd, even, no duplicate values, squares, cubes,
-
 #include <stdio.h>
 
 // colors for output

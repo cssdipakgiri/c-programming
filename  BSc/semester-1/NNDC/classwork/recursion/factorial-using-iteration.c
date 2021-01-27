@@ -1,18 +1,22 @@
 #include <stdio.h>
 /**
  * author: dipak giri, 24.1.2021
- * title: a simple program on recursion
+ * title: a simple program on iteration.
  **/
 
 /**
- * summary of factorial: if the argument number is grater than 0 it will return 1, as 0! is 1. whenever number is grater than 0 it will return number * factorial(number - 1)
+ * summary of factorial: if the argument number is grater than 0 it will return 1, as 0! is 1. whenever number is grater than 0 it will return calculated factorial of that number.
  **/
 
 int factorial(int number)
 {
 	if (number > 0)
 	{
-		return number * factorial(number - 1);
+		int fact = 1;
+		for(int x = 1; x <= number; x++){
+			fact *= x;
+		}
+		return fact;
 	}
 	else if (number == 0)
 	{
