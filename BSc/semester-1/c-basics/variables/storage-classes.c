@@ -1,4 +1,6 @@
-/* storage class in C is used to describe the following things:
+/* 
+
+storage class in C is used to describe the following things:
 
 1. The variable scope.
 2. The location where the variable will be stored.
@@ -7,14 +9,9 @@
 5. Who can access a variable?
 
 auto: are local variables in c. this storage class specifier is default. decleared inside a function or block, stored in memory, value is unpredictable.
-
 extern: are global, decleared outside all functions, stored in memory, default value is zero. 
-
 register: are local, decleared inside a function or block, stored in CPU registers, value is garbage.
-
-
 static: decleared anywhere scope depends on declearation, local in block and global outside functions, memory, zero.
-
 
 */
 
